@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms- Lets learn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- get is for simple request -->
+    <h1>Form to apply for Sigma Web Dev - TA</h1>
+
+    <form action="url.php" method="post">
+        <div>
+            <label for="username">Enter your Username: </label>
+            <input type="text" name="username" id="username">
+
+        </div>
+        <div><label for="gender">Enter your gender: </label>
+            <br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+
+        </div>
+        <div>
+            <label for="comment">Enter your comment here: </label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
