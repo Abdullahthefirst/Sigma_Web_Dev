@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box {
+            background-color: aqua;
+
+        }
+
+        .box1 {
+            color: yellow;
+            padding: 10px;
+            margin: 25px;
+            /* Margin is outside element, so its background color isn't retained */
+            border: 2px solid blue;
+            box-sizing: border-box;
+            /* box-sizing: border-box; says that height specified contains padding and border */
+            height: 200px;
+            /* Margin is not part of element height */
+        }
+
+        .box2 {
+            color: red;
+            padding: 10px;
+            margin: 25px;
+            /* Margin is outside element, so its background color isn't retained */
+            border: 2px solid blue;
+            box-sizing: border-box;
+            /* box-sizing: border-box; says that height specified contains padding and border */
+            height: 200px;
+            /* Margin is not part of element height */
+
+        }
+
+        /* Margin Collapse- When two margins overlap, the single larger one retains */
+    </style>
+</head>
+
+<body>
+    <!-- Every item in HTML is a box -->
+    <div class="box box1">
+        I am a box
+    </div>
+    <div class="box box2">
+        I am another box
+    </div>
+
+</body>
+
+</html>
