@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 80vh;
+    background-image: url("assets/images/bg.jpg");
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 100;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    padding: 3vw;
+
+
+}
+
+.main nav {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+
+
+}
+
+nav button {
+    padding: 1vw 2vw;
+    border-radius: .5vw;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: none;
+
+
+}
+
+nav div,
+nav span {
+    z-index: 1;
+
+}
