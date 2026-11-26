@@ -5,13 +5,17 @@
 
 .main {
     height: 80vh;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+
     background-image: url("assets/images/bg.jpg");
     position: relative;
 }
 
 .main .box {
     height: 80vh;
-    width: 100%;
+    width: auto;
     opacity: 0.44;
     background-color: black;
     position: absolute;
